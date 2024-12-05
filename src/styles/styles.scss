@@ -1,0 +1,9 @@
+$border-color:  #ff0000;
+
+.accordion {
+  &:hover {
+    border: 1px solid $border-color;
+    transition: border-color 0.3s ease;
+  }
+}
+
